@@ -1,0 +1,198 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 100%;
+  background: #595f96;
+  overflow: hidden;
+}
+
+header {
+  background: #cd4d00;
+  font-size: 2vw;
+  color: white;
+  padding: 0.5em;
+  height: 4vh;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logo {
+  height: 43vh;
+  text-align: center;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+img {
+  max-width: 20%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 17vh;
+}
+
+.mobile,
+.ds,
+.web {
+  font-size: 2.5vw;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  padding: 0.3em;
+}
+
+#mobile {
+  background: #94c47d;
+  padding: 0.7em;
+}
+
+#ds {
+  background: #e06666;
+  padding: 0.7em;
+}
+
+#web {
+  background: #6d9eeb;
+  padding: 0.7em;
+}
+
+#turma {
+  height: 16vh;
+  position: relative;
+}
+
+#txtturma {
+  color: white;
+  font-size: 1.5vw;
+  font-weight: bold;
+  font-style: italic;
+  position: absolute;
+  bottom: 0;
+  right: 0.5em;
+}
+
+footer {
+  background: #d8d8d8;
+  height: 19vh;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100vw;
+  margin: 0;
+}
+
+table {
+  padding: 1vh;
+}
+
+input {
+  width: 30vw;
+  border: 1px solid #ccc;
+}
+
+#nl {
+  font-weight: bold;
+  color: black;
+  padding-left: 0;
+}
+
+button {
+  background-color: #cd4d00;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+input,
+button {
+  display: inline-block;
+  padding: 2vh;
+  font-size: 1.2vw;
+  -webkit-appearance: none;
+}
+
+#desafio3 {
+  display: none;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    font-size: 5vw;
+    padding: 1em;
+    height: 2vh;
+  }
+
+  .logo {
+    height: 30vh;
+  }
+
+  img {
+    max-width: 80%;
+  }
+
+  .container {
+    height: 30vh;
+    flex-wrap: wrap;
+  }
+
+  .mobile,
+  .ds,
+  .web {
+    font-size: 6vw;
+    padding: 0.5em;
+    justify-content: space-around;
+    flex-grow: 0;
+    width: 138px;
+  }
+
+  #mobile {
+    background: #94c47d;
+    padding: 0.7em;
+  }
+
+  #ds {
+    background: #e06666;
+    padding: 0.7em;
+  }
+
+  #web {
+    background: #6d9eeb;
+    padding: 0.7em;
+  }
+
+  #turma {
+    height: 16vh;
+  }
+
+  #txtturma {
+    font-size: 5vw;
+    right: 1em;
+    bottom: 0.5em;
+  }
+
+  input {
+    width: 65vw;
+  }
+
+  input,
+  button {
+    font-size: 4vw;
+  }
+}
